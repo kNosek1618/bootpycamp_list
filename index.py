@@ -31,3 +31,15 @@ print(numbers)
 
 print("<>".join(str(numbers)))
 print("<>".join(string_list))
+
+instructors = []
+
+instructors.append("Colt")
+instructors.append("Blue")
+instructors.append("Lisa")
+instructors.pop()
+instructors.pop(0)
+instructors.insert(0, "Done")
+
+
+print(instructors)
